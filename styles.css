@@ -1,0 +1,108 @@
+body {
+  background-color: #393e46;
+  color: #eeeeee;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #222831;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #d1ebed; /* Change the color to gold */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #00adb5;
+  border-radius: 5px;
+  width: 97%;
+  background-color: #393e46;
+  color: #eeeeee;
+}
+
+.category-btn {
+  background-color: #00adb5;
+  border-color: #00adb5;
+  color: #eeeeee;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 24px;
+  outline: none;
+}
+
+.category-btn:hover {
+  background-color: #222831;
+  border-color: #222831;
+}
+
+.category-btn,
+#get-jokes {
+  background-color: #00adb5;
+  border: 1px solid #00adb5;
+  color: #eeeeee;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, border-color 0.3s ease,
+    color 0.3s ease;
+  outline: none; /* Remove outline when focused */
+}
+
+.category-btn:hover,
+#get-jokes:hover {
+  background-color: #222831;
+  border-color: #222831;
+  border: 1px solid #00adb5;
+}
+
+.jokes {
+  list-style: none;
+  padding: 0;
+}
+
+.list {
+  display: flex;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #d8e3e3;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list span {
+  display: block;
+  font-size: 16px;
+  color: #3e585e;
+  width: 90%;
+}
+
+.closeBtn {
+  color: #dc3545;
+  cursor: pointer;
+  width: 20px;
+  display: inline-block;
+  height: 100%;
+}
+.list > .closeBtn i {
+  text-align: center;
+}
+
+.closeBtn:hover {
+  color: #c82333;
+}
